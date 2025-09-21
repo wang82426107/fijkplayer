@@ -5,7 +5,9 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
-
+    // 添加这一行（可以使用插件的包名）
+    namespace "com.example.fijkplayer_update"
+    
     defaultConfig {
         minSdkVersion 16
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
