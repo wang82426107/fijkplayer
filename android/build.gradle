@@ -4,7 +4,7 @@ version '0.11.0'
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     // 添加这一行（可以使用插件的包名）
     namespace "com.befovy.fijkplayer"
 
